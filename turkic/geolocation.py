@@ -3,6 +3,7 @@ import urllib2
 import logging
 
 logger = logging.getLogger("turkic.geolocation")
+logging.basicConfig()
 
 try:
     import config
